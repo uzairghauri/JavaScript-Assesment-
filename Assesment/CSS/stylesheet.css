@@ -1,0 +1,74 @@
+
+#home {
+    background-image: url('../Image/me.jpg');
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+    background-position: bottom center;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+#boot, #git, #cs, #html, #link, #face, #gmail, #js {
+    width: 50px;
+    margin-left: 10px;
+}
+
+#proj {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.chels, .pak {
+    width: 40%;
+    margin: 40;
+    align-items: center;
+}
+
+
+ul {
+    list-style: none;
+}
+
+#water {
+    background-image: url('../Image/water.jpg');
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+    background-position: bottom center;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.collap {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+.active, .collapsible:hover {
+background-color: #ccc;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  
